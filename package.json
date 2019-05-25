@@ -17,8 +17,11 @@
   },
   "homepage": "https://github.com/jctobey/burger#readme",
   "dependencies": {
-    "express": "^4.16.4",
+    "express": "^4.17.0",
     "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+    "g": "^2.0.1",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.6"
   }
 }
