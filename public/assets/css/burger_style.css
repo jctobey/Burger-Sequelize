@@ -1,0 +1,33 @@
+body{
+    background-color:#ffba66;
+}
+.devoured{
+    outline: lightgray 10px;
+}
+.title{
+    color:orangered;
+}
+.burger-name{
+    font-size:20px;
+    font-weight: bold;
+}
+.burger-devour{
+    font-size: 20px;
+    text-decoration: line-through;
+}
+
+.bar1, .bar2, .bar3, .bar4 {
+    width: 35px;
+    height: 5px;
+    background-color:brown;
+    margin: 2px 0;
+    transition: 0.4s;
+}
+
+.bar4, .bar1{
+    background-color:khaki;
+}
+.bar2{
+    background-color:gold;
+    height:3px;
+}
