@@ -25,16 +25,18 @@ router.put("/api/burgers/:id", function(req, res) {
 
   console.log("condition", condition);
 
-  db.burger.update(
-    {
-      devoured: req.body.devoured
-    },
-    {
-      where: {
-        id: condition
+  db.burger
+    .update(
+      {
+        devoured: req.body.devoured
+      },
+      {
+        where: {
+          id: condition
+        }
       }
-    }
-  );
+    )
+    .then(res.status(200).end());
 });
 
 // router.delete("/api/burgers/:id", function(req, res) {
